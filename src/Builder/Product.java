@@ -14,7 +14,6 @@ public class Product {
 
     public void show(){
         System.out.println("\n Product completed as below");
-        for (int i=0; i< parts.size();i++)
-            System.out.println(parts.get(i));
+        for (String part : parts) System.out.println(part);
     }
 }
