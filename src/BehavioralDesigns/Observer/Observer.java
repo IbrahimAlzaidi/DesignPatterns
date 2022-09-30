@@ -1,8 +1,5 @@
 package BehavioralDesigns.Observer;
 
-import java.util.ArrayList;
-import java.util.List;
-
 interface Observer {
     // method to update observer used by subject.
     public void update();
